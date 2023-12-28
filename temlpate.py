@@ -8,14 +8,14 @@ project_name = "CNN_Classifier"
 
 list_of_files = [
     '.github/wokflows/.gitkeep',
-    f"src{project_name}/__init__.py", #init is called a constructor file and it can be used to import functions from a different folder kinda
-    f"src{project_name}/components/__init__.py",
-    f"src{project_name}/utilities/__init__.py",
-    f"src{project_name}/config/__init__.py",
-    f"src{project_name}/config/configuration/__init__.py",
-    f"src{project_name}/pipeline/__init__.py",
-    f"src{project_name}/entity/__init__.py",
-    f"src{project_name}/constants/__init__.py",
+    f"src/{project_name}/__init__.py", #init is called a constructor file and it can be used to import functions from a different folder kinda
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/utilities/__init__.py",
+    f"src/{project_name}/config/__init__.py",
+    f"src/{project_name}/config/configuration/__init__.py",
+    f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/entity/__init__.py",
+    f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
     "dvc.yaml",
     "parameters.yaml",
