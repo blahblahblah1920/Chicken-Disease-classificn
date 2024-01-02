@@ -25,7 +25,7 @@ stages:
     cmd: python src/CNN_Classifier/pipeline/training_03.py
     deps:
       - src/CNN_Classifier/pipeline/training_03.py
-      - src/CNN_Classifier/components/prepare_callbacks.py
+      - src/CNN_Classifier/components/callback.py
       - config/config.yaml
       - artifacts/data_ingestion/Chicken-fecal-images
       - artifacts/prepare_base_model
